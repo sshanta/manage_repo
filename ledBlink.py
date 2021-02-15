@@ -1,4 +1,7 @@
 import time             # image time library
+
+#Testing the local file change
+
 import RPi.GPIO as GPIO # import python package for GPIO's
 GPIO.setmode(GPIO.BCM) # Sets Pin Configuration
 GPIO.setup(2,GPIO.OUT) # Sets Output Pin
